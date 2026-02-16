@@ -1,0 +1,26 @@
+channel: general
+messageCount: 5
+pulledAt: 2026-02-16T15:25:24.379Z
+messages:
+  - text: <!here> sorry to tag everyone - just slightly concerned chat2impact
+      appears to be broken at the moment
+    user: U04HR5E5FCM
+    ts: "1771255410.662489"
+    type: message
+  - text: <https://www.hiwwt.org.uk/>
+    user: U04HR5E5FCM
+    ts: "1771255290.858709"
+    type: message
+  - text: same for hampshire and isle of white
+    user: U04HR5E5FCM
+    ts: "1771255284.310009"
+    type: message
+  - text: <https://www.nwairambulance.org.uk/> can anyone see if NWAA Chat2Impact is
+      working for them at the moment - none of the responses are loading for me
+    user: U04HR5E5FCM
+    ts: "1771255249.367299"
+    type: message
+  - text: "Well done <@U04HH2751T8>! Appreciate the effort this has taken :+1:"
+    user: U04HH26R878
+    ts: "1771146781.452009"
+    type: message
