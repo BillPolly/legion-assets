@@ -1,0 +1,45 @@
+channel: general
+messageCount: 5
+pulledAt: 2026-02-20T01:43:38.825Z
+messages:
+  - text: nice bit of feedback from the webinar earlier this week
+    user: U04HR5E5FCM
+    ts: "1771522199.148049"
+    type: message
+  - text: >-
+      Hi all <!here> I've sent you all an invite for our Cyber Essentials Plus
+      audit on 11th March as we'll likely need a variety of you to join the call
+      at different times to show system logins etc.
+
+
+      I will start getting us all prepped next week. In terms of the specific
+      machines to be sampled, they will be:
+
+      • Me
+
+      • <@U04HEPK09PG> 
+
+      • <@U04HH26R878> 
+
+      • <@U04H93UTPRD> (if you have your new computer by then, otherwise
+      <@U04HR5E5FCM>)
+
+      • <@U04HPRCC7NY> 
+
+      Stay tuned for more!
+    user: U04HH2751T8
+    ts: "1771430542.131739"
+    type: message
+  - text: I'll not tell her that Jack
+    user: U04HH26R878
+    ts: "1771351056.850299"
+    type: message
+  - text: could also be a tortoise with a smiley on it's shell
+    user: U04HR5E5FCM
+    ts: "1771351025.981339"
+    type: message
+  - text: Crochet octopus from my daughter! Only has 7 tentacles though so may need
+      help getting around
+    user: U04HH26R878
+    ts: "1771350909.545699"
+    type: message
