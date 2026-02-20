@@ -1,0 +1,10 @@
+type: agent
+name: e2e-test-agent
+description: E2E test agent stored on GitHub
+handlers:
+  onMessage:
+    actions:
+      - reply: Hello from GitHub
+  onError:
+    actions:
+      - log: error occurred
