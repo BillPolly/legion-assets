@@ -1,0 +1,76 @@
+key: BMA1-80
+summary: One-off web scrape
+status: Done
+priority: High
+assignee: claire.fletcher-hobbs
+description: >-
+  Please do a one-off web scrape of the BMA knowledge base, using the same list
+  of URLs as the previous scrape (I think it happened in December). This new
+  knowledge base should power both Dev and Staging.
+
+  Please also provide the list of success / failed URLs at the end. Ideally as a
+  csv but if in JSON then I should be able to convert it.
+
+  This needs to be done before the next round of UAT starts on Weds 4th Feb
+comments:
+  - author: liz.logan
+    date: 2/3/2026
+    body: >-
+      url results from latest Rag crawl. There is 1 broken url and none failed
+      extractions
+       
+      The results come back to me in JSON format, and I’ve put them in an excel,
+      we can change how that looks if you want.
+  - author: liz.logan
+    date: 2/3/2026
+    body: I am just in the process of the running the append meta data script on the
+      vectors. Will update here once complete.
+  - author: claire.fletcher-hobbs
+    date: 2/3/2026
+    body: Thanks Liz. The final / regular report I said we would send in the
+      following structure (  ), but that’s only going to be set up once we’re in
+      Production, right. The list you have provided is fine for now, thank you!
+  - author: liz.logan
+    date: 2/3/2026
+    body: This is now complete. Although, I noticed in the append metadata script
+      results that two urls did not have any content in pinecone. I checked
+      MongoDB, where the content is first extracted, and they are just empty
+      strings. This will have happened on the last scrape, but I don’t think I
+      realised. I have updated the sheet so that the two urls are in the failed
+      tab. The reason they failed is because they are pdf, but don’t have a pdf
+      extension so the scraper gets confused. I should be able to get a fix in
+      and rerun just for these this evening.
+  - author: claire.fletcher-hobbs
+    date: 2/3/2026
+    body: ohhh interesting. I don’t suppose you know if these were on the list they
+      supplied to us…. ie they sent them like that… OR whether it’s our scraper
+      detecting links as it goes through? I’m not sure where the original list
+      of URLs is otherwise I’d check that!
+  - author: claire.fletcher-hobbs
+    date: 2/3/2026
+    body: "ignore me, I think I found them in this doc, it’s the first two and yes
+      looks like they provided them like that:
+      https://docs.google.com/spreadsheets/d/1tUCS2hy8omG3rWBrVTI1zYCEYrrP6SAx_\
+      _ZLuPx_yzo/edit?gid=960212070#gid=960212070"
+  - author: liz.logan
+    date: 2/3/2026
+    body: yeah that looks like the list. I’m pretty sure this should be fixed. Just
+      updating the VM then need to run the scrape on just those urls, so it
+      shouldn’t take too long
+  - author: liz.logan
+    date: 2/3/2026
+    body: |-
+      This is now complete. Pincone now includes the two urls https://cdn.intelligencebank.com/eu/share/qMbw14/eRaXW/M73dL/original/GP+Registrar+Handbook+2025+Update+20250629 and https://cdn.intelligencebank.com/eu/share/qMbw14/bBBP3/aX7al/original/20250691+Resident+Doctor+contract+checking+guidance_England.
+      I’ve updated the sheet so they are on the success tab and not the failed tab.
+      Seeing as these urls content was not in pinecone before you could notice a difference (hopefully better) in results for questions that are related to these urls. At the same time it could be we need to prune out some data from the content.
+  - author: claire.fletcher-hobbs
+    date: 2/4/2026
+    body: Hi  just one update from BMA - they have said we can remove the broken URL
+      ("https://www.bma.org.uk/media/2225/bma-medical-academic-handbook-april-2020.pdf")
+      from their list to scrape as it’s no longer on their site. Is this a
+      change you can make to the core list we use? Thanks! Claire
+  - author: liz.logan
+    date: 2/4/2026
+    body: Yes I will get it removed from the core list. On the next scrape we should
+      only see successful urls.
+pulledAt: 2026-02-20T01:46:21.124Z
