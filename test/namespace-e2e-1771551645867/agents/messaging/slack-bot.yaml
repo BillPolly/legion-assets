@@ -1,0 +1,7 @@
+type: agent
+name: messaging/slack-bot
+description: Slack messaging bot in messaging namespace
+handlers:
+  onMessage:
+    actions:
+      - reply: Hello from Slack!
