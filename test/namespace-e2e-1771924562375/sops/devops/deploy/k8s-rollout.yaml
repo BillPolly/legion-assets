@@ -1,0 +1,12 @@
+name: devops/deploy/k8s-rollout
+description: Kubernetes rolling deployment
+phases:
+  - id: build
+    steps:
+      - action: docker build
+  - id: push
+    steps:
+      - action: docker push
+  - id: apply
+    steps:
+      - action: kubectl apply
