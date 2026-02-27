@@ -1,0 +1,43 @@
+channel: general
+messageCount: 5
+pulledAt: 2026-02-27T17:51:44.535Z
+messages:
+  - text: "-"
+    user: U04H93UTPRD
+    ts: "1772036698.238319"
+    type: message
+  - text: Pretty sure I will
+    user: U04HR5E5FCM
+    ts: "1772027577.734229"
+    type: message
+  - text: well done <@U04HPRCC7NY>... and <@U04HR5E5FCM> / <@U04H93UTPRD> let me
+      know if you need to do this as I'll likely need to bump up your privileges
+      first
+    user: U04HH2751T8
+    ts: "1772027541.407349"
+    type: message
+  - text: <@U04HH2751T8> I've got the tick on MS defender. I needed to uninstall it
+      and follow the reinstall steps from before. <@U04HR5E5FCM> and
+      <@U04H93UTPRD> let me know if you need help doing this. I have a feeling
+      the same thing has happened to you where the updates stopped for some
+      reason. MS defender should be on 2026
+    user: U04HPRCC7NY
+    ts: "1772026725.938119"
+    type: message
+  - text: >-
+      Morning <!here>
+
+
+      Sorry about this but our accountants have had some personnel issues and
+      are hoping to sort out payroll today which means that your salaries won’t
+      land until later today (possibly tomorrow). Rather out of our control very
+      annoyingly.
+
+
+      Apologies for this :disappointed:
+
+
+      Doug
+    user: U04HEPK09PG
+    ts: "1771918174.401189"
+    type: message
