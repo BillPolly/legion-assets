@@ -1,8 +1,0 @@
-name: coding/review/pr-review
-description: Review a pull request for code quality
-template: |-
-  Review the following PR changes:
-
-  {{diff}}
-
-  Check for: bugs, style, performance.
