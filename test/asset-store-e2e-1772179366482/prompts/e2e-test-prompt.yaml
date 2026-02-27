@@ -1,0 +1,6 @@
+name: e2e-test-prompt
+description: Summarize text content for E2E testing
+template: |-
+  Summarize the following text in 3 bullet points:
+
+  {{text}}
