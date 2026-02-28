@@ -1,0 +1,38 @@
+channel: general
+messageCount: 5
+pulledAt: 2026-02-28T08:54:04.491Z
+messages:
+  - text: |-
+      Hi <!here> I'm off on Monday so here are a few things on my list for next week:
+      • Internet Matters - <@U04H93UTPRD> and <@U04HH26R878> - see the feedback in the shared channel. Call with client to discuss at 11am Monday. Would be great to address some of these over the first half of next week. I will discuss budget with Ghislaine on Tues but we are fine to committing more time on this atm.
+      • BMA - <@U04HPRCC7NY> - would be good to get the updates made to the prompt and deployed to BMA Dev. Not urgent for Mon but would be ideal for next week
+          ◦ <@U04H93UTPRD> I have raised a ticket with their latest UAT feedback - some things to review / investigate. Less urgent than Internet Matters but if it turns out you don't have IM to do, then please take a look: <https://ebmai.atlassian.net/jira/software/c/projects/BMA1/boards/307?selectedIssue=BMA1-87>
+      • NASUWT - <@U04HPRCC7NY> - I have added a ticket to update the scrape list. Would be good for this to get done before the next scrape (on Weds?) as she has people testing it atm: <https://ebmai.atlassian.net/jira/software/c/projects/NASUWT/boards/126?issueParent=21602%2C24168&amp;selectedIssue=NASUWT-36>
+      • Technicians - <@U0A09M0JJ2U> - if you could give my 'requirements' doc a once-over and let me know if it's detailed enough, that would be great
+      • CYBER ESSENTIALS PLUS - the audit is coming up on 11th March and we will need to audit 2 out of the 3 of <@U04HR5E5FCM> <@U04H93UTPRD> and <@U0A09M0JJ2U> laptops. Therefore please all try to get MS Defender set up, let me know if you face any errors (I might need to up your permissions)
+      Thanks all and catch up on Tuesday :v:
+    user: U04HH2751T8
+    ts: "1772215449.911309"
+    type: message
+  - text: "-"
+    user: U04H93UTPRD
+    ts: "1772036698.238319"
+    type: message
+  - text: Pretty sure I will
+    user: U04HR5E5FCM
+    ts: "1772027577.734229"
+    type: message
+  - text: well done <@U04HPRCC7NY>... and <@U04HR5E5FCM> / <@U04H93UTPRD> let me
+      know if you need to do this as I'll likely need to bump up your privileges
+      first
+    user: U04HH2751T8
+    ts: "1772027541.407349"
+    type: message
+  - text: <@U04HH2751T8> I've got the tick on MS defender. I needed to uninstall it
+      and follow the reinstall steps from before. <@U04HR5E5FCM> and
+      <@U04H93UTPRD> let me know if you need help doing this. I have a feeling
+      the same thing has happened to you where the updates stopped for some
+      reason. MS defender should be on 2026
+    user: U04HPRCC7NY
+    ts: "1772026725.938119"
+    type: message
